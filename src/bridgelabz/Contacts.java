@@ -7,7 +7,7 @@ private String address;
 private String city;
 private String state;
 private int zip;
-private int phonenumber;
+private long phonenumber;
 private String email;
 public Contacts() {
 }
@@ -47,10 +47,10 @@ public int getZip() {
 public void setZip(int zip) {
 	this.zip=zip;
 }
-public int getPhonenumber() {
+public long getPhonenumber() {
 	return phonenumber;
 }
-public void setPhonenumber(int phonenumber) {
+public void setPhonenumber(long phonenumber) {
 	this.phonenumber=phonenumber;
 }
 public String getEmail() {
